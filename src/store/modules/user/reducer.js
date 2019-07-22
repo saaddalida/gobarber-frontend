@@ -9,7 +9,10 @@ export default function user(state = INITIAL_STATE, action) {
     case '@auth/SIGN_IN_SUCESS':
       return produce(state, draft => {
         draft.profile = action.payload.user;
-        draft.signed = true;
+      });
+    case '@user/UPDATE_PROFILE_SUCESS':
+      return produce(state, draft => {
+        draft.profile = action.payload.profile;
       });
     default:
       return state;

@@ -1,12 +1,12 @@
 # GoBarber Web
 
-The GoBarber application was build with ReactJS by using the API developed in this repository (<a href="https://github.com/saaddalida/gobarber-backend" target="_blank" rel="noopener noreferrer">Meetup Backend</a>).
+The GoBarber application was build with ReactJS by using the API developed in this repository (<a href="https://github.com/saaddalida/gobarber-backend" target="_blank" rel="noopener noreferrer">GoBarber Backend</a>).
 
 This application will be used by providers and will not have scheduling features.
 
 ### Running application
 
-To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v10.16][nodejs] or higher + [Yarn v1.13][yarn] or higher installed on your computer and the [MeetApp API](https://github.com/saaddalida/meetapp-backend). From your command line:
+To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v10.16][nodejs] or higher + [Yarn v1.13][yarn] or higher installed on your computer and the [GoBarber API](https://github.com/saaddalida/meetapp-backend). From your command line:
 
     # Clone this repository
     $ git clone https://github.com/saaddalida/gobarber-frontend.git
